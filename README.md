@@ -1,5 +1,5 @@
 # NATA
-Nutrient and Agricultural Assistant for Fungi Detection using ResNet18 
+Nutrient and Agricultural Assistant for Fungi Detection using ResNet18 trained on pytorch
 
 ### Installing required packages
 ```
