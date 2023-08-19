@@ -4,7 +4,7 @@ import onnxruntime
 import time
 
 cap = cv2.VideoCapture(0)
-disease_model = onnxruntime.InferenceSession("C:/Users/franz/OneDrive/Documents/computer vision/assets/disease-model.onnx")
+disease_model = onnxruntime.InferenceSession("path-to-disease-model.onnx")
 
 classes = ('healthy', 'infected')
 
