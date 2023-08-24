@@ -1,7 +1,8 @@
 # NATA
-Nutrient and Agricultural Assistant for Fungi Detection
-Raspberry Pi 4 Implementation
-Leaf Detection Model trained on SSDLite MobileNet v3 large
+Nutrient and Agricultural Assistant for Fungi Detection <br><br>
+
+Raspberry Pi 4 Implementation <br>
+Leaf Detection Model trained on SSDLite MobileNet v3 large <br>
 Disease Model trained on MobileNet v2
 
 ## Main Script
