@@ -1,17 +1,17 @@
 # NATA
-Nutrient and Agricultural Assistant for Fungi Detection using ResNet18 trained on pytorch
-
-### Installing required packages
-```
-pip install numpy opencv-python onnxruntime
-```
+Nutrient and Agricultural Assistant for Fungi Detection
+Raspberry Pi 4 Implementation
+Leaf Detection Model trained on SSDLite MobileNet v3 large
+Disease Model trained on MobileNet v2
 
 ## Main Script
 [detection.py](detection.py)
 
 ### Download model
-[Google Drive Link](https://drive.google.com/file/d/1icWcSMGSKuZIsTSmXQ8pmlb5L8y0EO2J/view?usp=drive_link)
+[Leaf Detection Model](leafdetector.pth)
+[Disease Model Torchscript](qmodel_script.pt)
 
 ### Datasets used
 [New Plant Diseases Dataset - Kaggle](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
 [Plant disease recognition dataset - Kaggle](https://www.kaggle.com/datasets/rashikrahmanpritom/plant-disease-recognition-dataset)
+[Leaf Detection - Kaggle](https://www.kaggle.com/datasets/alexo98/leaf-detection) along with [Training notebook](https://www.kaggle.com/code/alexo98/starter-leaf-detection)
